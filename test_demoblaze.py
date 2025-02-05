@@ -22,10 +22,10 @@ def test_login():
     time.sleep(2)
 
     username = driver.find_element(By.ID, "loginusername")
-    username.send_keys("testuser")
+    username.send_keys("testuserjakob")
 
     password = driver.find_element(By.ID, "loginpassword")
-    password.send_keys("testpassword")
+    password.send_keys("testpasswordjakob")
 
     submit = driver.find_element(By.XPATH, "//button[text()='Log in']")
     submit.click()
